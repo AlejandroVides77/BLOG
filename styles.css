@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #3ef6f0, #005eff);
+    color: #ffffff;
+  }
+  
+  .header h1 {
+    font-family: 'Poppins', sans-serif; /* Aplica la fuente */
+    font-weight: 700;                   /* Ajusta el grosor según tu preferencia */
+    font-size: 2.5rem;                  /* Ajusta el tamaño */
+  }
+  
+  .header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    color: #fff;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    background-color: #444;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 5rem;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    margin: 7rem;
+  }
+  
+  .about, .blog-posts {
+    padding: 5rem;
+    margin: 8rem;
+    background-color: #348385;
+    border-radius: 5px;
+  }
+  
+  .post {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+  }
+
+  .photo-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre las fotos */
+    margin-bottom: 1rem;
+  }
+  
+  .profile-photo {
+    width: 300px;      /* Tamaño ajustable según tus preferencias */
+    height: 300px;     /* Tamaño ajustable según tus preferencias */
+    border-radius:100%; /* Hace la imagen redonda */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+  }
+  
+
+  .post-image {
+    width: 100%; /* Ajusta el tamaño al ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    margin-top: 0.5rem;
+    border-radius: 8px; /* Bordes redondeados para darle un estilo más suave */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para que resalten */
+  }
+  
